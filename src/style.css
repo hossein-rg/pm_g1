@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.center-cy {
+    transform: translateY(-50%);
+}
+
+.center-cx {
+    transform: translateX(-50%);
+}
+
+.bg-head-custom {
+    background-color: #AEC6FF;
+}
+
+.custom-top-10 {
+    top: -20px;
+}
+
+.rtl-grid {
+    direction: rtl;
+}
+
+@font-face {
+    font-family: kalame-thin;
+    src: url('../assets/fonts/KalamehWeb-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: kalame-regular;
+    src: url('../assets/fonts/KalamehWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: kalame-bold;
+    src: url('../assets/fonts/KalamehWeb-Bold.woff2') format('woff2');
+}
