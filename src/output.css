@@ -1163,6 +1163,24 @@ video {
   background-color: #455e91;
 }
 
+@media (max-width: 1200px) {
+  .max-\[1200px\]\:w-20 {
+    width: 5rem;
+  }
+
+  .max-\[1200px\]\:w-60 {
+    width: 15rem;
+  }
+
+  .max-\[1200px\]\:w-80 {
+    width: 20rem;
+  }
+
+  .max-\[1200px\]\:w-96 {
+    width: 24rem;
+  }
+}
+
 @media (max-width: 850px) {
   .max-\[850px\]\:-bottom-60 {
     bottom: -15rem;
