@@ -22,7 +22,9 @@
 .bg-line-custom {
     background-color: #575E71;
 }
-
+.bg-line-footer{
+    background-color: #715573;
+}
 .rtl-grid {
     direction: rtl;
 }
@@ -32,28 +34,11 @@
 }
 
 .w-custom400 {
-    width: 550px;
-}
-
-
-.c-top-pos250 {
-    top: 420px;
-}
-
-.c-top-huge-neg {
-    bottom: -200px;
+    width: 450px;
 }
 
 .c-top-pos310 {
     top: 310px;
-}
-
-.c-top-pos370 {
-    top: 430px;
-}
-
-.c-bottom-head {
-    bottom: 600px;
 }
 
 .c-top-pos {
@@ -65,7 +50,7 @@
 }
 
 .l-custom230 {
-    left: 200px;
+    left: 230px;
 }
 
 .bg-button {
@@ -87,17 +72,17 @@
     src: url('../assets/fonts/KalamehWeb-Bold.woff2') format('woff2');
 
 }
-
 @font-face {
     font-family: kalame-semibold;
     src: url('../assets/fonts/KalamehWeb-SemiBold.woff2') format('woff2');
 }
-
 @font-face {
     font-family: kalame-medium;
     src: url('../assets/fonts/KalamehWeb-Medium.woff2') format('woff2');
 }
-
 .rounded-1xl {
-    border-radius: 14px;
+    border-radius: 14px ;
+}
+.bg-footer{
+    background-color: #A8D0B5;
 }
