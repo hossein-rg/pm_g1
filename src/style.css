@@ -18,6 +18,11 @@
     top: -20px;
 }
 
+
+.bg-line-custom{
+    background-color: #575E71;
+}
+
 .rtl-grid {
     direction: rtl;
 }
