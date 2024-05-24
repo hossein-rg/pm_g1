@@ -68,4 +68,16 @@
 @font-face {
     font-family: kalame-bold;
     src: url('../assets/fonts/KalamehWeb-Bold.woff2') format('woff2');
+
+}
+@font-face {
+    font-family: kalame-semibold;
+    src: url('../assets/fonts/KalamehWeb-SemiBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: kalame-medium;
+    src: url('../assets/fonts/KalamehWeb-Medium.woff2') format('woff2');
+}
+.rounded-1xl {
+    border-radius: 14px ;
 }
