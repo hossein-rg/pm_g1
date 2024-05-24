@@ -578,6 +578,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -594,9 +598,36 @@ video {
   flex-direction: row-reverse;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-2 {
@@ -607,6 +638,18 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.font-\[kalame\] {
+  font-family: kalame;
+}
+
+.font-\[kalame-bold\] {
+  font-family: kalame-bold;
+}
+
+.font-\[kalame-regular\] {
+  font-family: kalame-regular;
 }
 
 .text-2xl {
@@ -628,4 +671,52 @@ video {
 
 .custom-top-10 {
   top: -20px;
+}
+
+.rtl-grid {
+  direction: rtl;
+}
+
+@font-face {
+  font-family: kalame-thin;
+
+  src: url('../assets/fonts/KalamehWeb-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: kalame-regular;
+
+  src: url('../assets/fonts/KalamehWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: kalame-bold;
+
+  src: url('../assets/fonts/KalamehWeb-Bold.woff2') format('woff2');
+}
+
+@media (min-width: 640px) {
+  .sm\:left-auto {
+    left: auto;
+  }
+
+  .sm\:right-0 {
+    right: 0px;
+  }
+
+  .sm\:top-auto {
+    top: auto;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
 }
