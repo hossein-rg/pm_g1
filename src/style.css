@@ -86,3 +86,72 @@
 .bg-footer{
     background-color: #A8D0B5;
 }
+.center-cy {
+    transform: translateY(-50%);
+}
+
+.center-cx {
+    transform: translateX(-50%);
+}
+
+.bg-head-custom {
+    background-color: #AEC6FF;
+}
+
+.custom-top-10 {
+    top: -20px;
+}
+
+
+.bg-line-custom {
+    background-color: #575E71;
+}
+
+.rtl-grid {
+    direction: rtl;
+}
+
+.left-none {
+    left: none;
+}
+
+.w-custom400 {
+    width: 550px;
+}
+
+
+.c-top-pos250 {
+    top: 420px;
+}
+
+.c-top-huge-neg {
+    bottom: -200px;
+}
+
+.c-top-pos310 {
+    top: 310px;
+}
+
+.c-top-pos370 {
+    top: 430px;
+}
+
+.c-bottom-head {
+    bottom: 600px;
+}
+
+.c-top-pos {
+    top: 330px;
+}
+
+.h-custom400 {
+    height: 450px;
+}
+
+.l-custom230 {
+    left: 200px;
+}
+
+.bg-button {
+    background-color: #455e91;
+}
