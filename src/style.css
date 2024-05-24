@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.center-cy {
+    transform: translateY(-50%);
+}
+
+.center-cx {
+    transform: translateX(-50%);
+}
+
+.bg-head-custom {
+    background-color: #AEC6FF;
+}
+
+.custom-top-10 {
+    top: -20px;
+}
