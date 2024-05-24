@@ -19,12 +19,40 @@
 }
 
 
-.bg-line-custom{
+.bg-line-custom {
     background-color: #575E71;
 }
 
 .rtl-grid {
     direction: rtl;
+}
+
+.left-none {
+    left: none;
+}
+
+.w-custom400 {
+    width: 450px;
+}
+
+.c-top-pos310 {
+    top: 310px;
+}
+
+.c-top-pos {
+    top: 330px;
+}
+
+.h-custom400 {
+    height: 450px;
+}
+
+.l-custom230 {
+    left: 230px;
+}
+
+.bg-button {
+    background-color: #455e91;
 }
 
 @font-face {
@@ -40,6 +68,7 @@
 @font-face {
     font-family: kalame-bold;
     src: url('../assets/fonts/KalamehWeb-Bold.woff2') format('woff2');
+
 }
 @font-face {
     font-family: kalame-semibold;
