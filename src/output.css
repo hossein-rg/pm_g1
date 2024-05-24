@@ -587,8 +587,11 @@ video {
   display: flex;
 }
 
+
 .h-7 {
   height: 1.75rem;
+.hidden {
+  display: none;
 }
 
 .h-screen {
@@ -607,13 +610,44 @@ video {
   flex-direction: row-reverse;
 }
 
+
 .p-2 {
   padding: 0.5rem;
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-3 {
@@ -623,6 +657,16 @@ video {
 
 .pe-0 {
   padding-inline-end: 0px;
+.font-\[kalame\] {
+  font-family: kalame;
+}
+
+.font-\[kalame-bold\] {
+  font-family: kalame-bold;
+}
+
+.font-\[kalame-regular\] {
+  font-family: kalame-regular;
 }
 
 .text-2xl {
@@ -650,6 +694,53 @@ video {
   top: -20px;
 }
 
+
 .bg-line-custom{
   background-color: #575E71;
 }
+.rtl-grid {
+  direction: rtl;
+}
+
+@font-face {
+  font-family: kalame-thin;
+
+  src: url('../assets/fonts/KalamehWeb-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: kalame-regular;
+
+  src: url('../assets/fonts/KalamehWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: kalame-bold;
+
+  src: url('../assets/fonts/KalamehWeb-Bold.woff2') format('woff2');
+}
+
+@media (min-width: 640px) {
+  .sm\:left-auto {
+    left: auto;
+  }
+
+  .sm\:right-0 {
+    right: 0px;
+  }
+
+  .sm\:top-auto {
+    top: auto;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
