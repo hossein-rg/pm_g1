@@ -22,9 +22,11 @@
 .bg-line-custom {
     background-color: #575E71;
 }
-.bg-line-footer{
+
+.bg-line-footer {
     background-color: #715573;
 }
+
 .rtl-grid {
     direction: rtl;
 }
@@ -72,20 +74,25 @@
     src: url('../assets/fonts/KalamehWeb-Bold.woff2') format('woff2');
 
 }
+
 @font-face {
     font-family: kalame-semibold;
     src: url('../assets/fonts/KalamehWeb-SemiBold.woff2') format('woff2');
 }
+
 @font-face {
     font-family: kalame-medium;
     src: url('../assets/fonts/KalamehWeb-Medium.woff2') format('woff2');
 }
+
 .rounded-1xl {
-    border-radius: 14px ;
+    border-radius: 14px;
 }
-.bg-footer{
+
+.bg-footer {
     background-color: #A8D0B5;
 }
+
 .center-cy {
     transform: translateY(-50%);
 }
@@ -102,7 +109,20 @@
     top: -20px;
 }
 
+/* articles */
+.text-c-big {
+    font-size: 60px;
+}
 
+.bg-card {
+    background-color: #DBE2F9;
+}
+
+.bg-s-card {
+    background-color: #E8DEF8;
+}
+
+/* articles */
 .bg-line-custom {
     background-color: #575E71;
 }
