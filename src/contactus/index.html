@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="h-screen bg-head-custom font-[kalame-bold]">
+        <img class="absolute top-0 right-0 w-96 " src="../../assets/images/headbg.png" alt="">
+        <div class="flex flex-row px-4 py-3 sm:flex-row sm:items-center rtl-grid sm:justify-center sm:h-32">
+            <img id="burgermenu" class="w-10 z-0 sm:hidden" src="../../assets/images/burgermenu.svg" alt="burger">
+            <img id="burgermenuopen" class="absolute top-2 right-3 w-12 z-0 hidden sm:hidden"
+                src="../../assets/images/closeicon.svg" alt="burger">
+            <img class="custom-top-10 w-28 absolute left-1/2 center-cx sm:right-0 sm:left-auto sm:top-3"
+                src="../../assets/images/mainlogo.svg" alt="">
+            <div id="listNavbar" class="hidden z-0 sm:flex bg-white px-3 py-2 rounded-3xl gap-4 rtl-grid">
+                <a class="px-4 py-1 rounded-3xl bg-head-custom" href="#">خانه</a>
+                <a class="px-4 py-1 rounded-3xl bg-head-custom" href="#">ارتباط با ما</a>
+                <a class="px-4 py-1 rounded-3xl bg-head-custom" href="#">مقالات</a>
+            </div>
+        </div>
+        <div
+            class="absolute max-[1200px]:w-96 max-[850px]:top-32 top-80 p-4 text-4xl right-20 max-[850px]:right-0 max-[850px]:text-2xl">
+            <h1 class="text-black rtl-grid max-[1200px]:text-4xl text-c-big">ارتباط با ما</h1>
+            <p class="text-xl rtl-grid pt-8"> ایده‌هایتان را با ما به اشتراک بگذارید!</p>
+        </div>
+        <div class="p-4 absolute bottom-20 max-[850px]:left-0 left-10">
+            <img src="../../assets/images/bgcallus.png" alt="">
+        </div>
+        
+    </div>
+    <div class=" h-7 bg-line-custom"></div>
+    <div class="flex flex-col  justify-center items-center ">
+    <div class="flex justify-center items-center rtl-grid flex-col font-[kalame-bold] text-sm  md:text-base  my-10  md:my-24 gap-5 w-2/3">
+        <div class="flex md:flex-row flex-col justify-center items-center lg:gap-16 gap-5 w-full ">
+            <div class="flex flex-col justify-start w-full  "><label for="name" class="px-2 pb-2"> نام</label>
+                <input id="name" type="text" class="inputs  h-12   "></div>
+            <div class="flex flex-col justify-start w-full "><label for="family" class="px-2 pb-2"> نام خانوادگی</label>
+            <input id="family" type="text"  class="inputs h-12"></div>
+        </div>
+        <div class="flex md:flex-row flex-col justify-center items-center lg:gap-16 w-full gap-5">
+            <div class="flex flex-col justify-start w-full "><label for="email" class="px-2 pb-2"> ایمیل</label>
+                <input id="email" type="email" class="inputs h-12 "></div>
+            <div class="flex flex-col justify-start w-full "><label for="phone" class="px-2 pb-2"> شماره تماس </label>
+            <input id="phone" type="number"  class="inputs  h-12 "></div>
+        </div>
+        <div class="w-full ">
+            <div class="flex flex-col justify-start w-full "><label for="reqtext" class="px-2 pb-2"> متن پیام</label>
+                <textarea name="" id="reqtext" cols="20" rows="6" class="max-[425px]:h-[150px] inputs  appearance-none md:mt-1 block w-full h-64 px-3 py-2"></textarea>
+        </div>
+    
+    </div>
+    <div class="flex justify-center items-center ">
+        <button
+          class="bg-[#455E91] md:h-12 md:w-52 w-40 h-10  md:py-2 mt-6 md:mb-0 mb-8   md:mt-0  rounded-3xl text-xl text-white">ارسال پیام</button>
+  
+      </div>
+</div>
+
+<div class="flex sm:w-2/3 w-full md:flex-row flex-col  justify-center items-center  font-[kalame-bold] text-sm px-10  gap-5  mb-8 ">
+   
+    <div class="flex flex-col text-end gap-2  md:h-[100px] p-4  bg-[#DBE2F9] rounded-xl md:w-3/5  w-full ">
+        <p>شبکه های اجتماعی ما </p>
+        <div class="flex flex-row   justify-center    gap-3 ">
+           <a href="" ><img src="../../assets/images/social/github.svg" alt="" class="w-10 h-10  "></a> 
+           <a href=""><img src="../../assets/images/social/gmail.svg" alt="" class="w-10 h-10  "></a> 
+           <a href=""> <img src="../../assets/images/social/telegram.svg" alt="" class="w-10 h-10  "></a> 
+           <a href=""><img src="../../assets/images/social/whatsapp.svg" alt="" class="w-10 h-10  "></a> 
+           <a href=""><img src="../../assets/images/social/stack.svg" alt="" class="w-10 h-10  "></a> 
+           <a href=""><img src="../../assets/images/social/instagram.svg" alt="" class="w-10 h-10  "></a> 
+
+        </div>
+    </div>
+    <div class=" bg-[#DBE2F9] rounded-xl md:w-2/5 w-full p-4  md:h-[100px]">   
+        <div class=" text-end ">شماره تماس </div>
+        <div class="text-start ">
+           <p>021-222-2222</p>
+           <p>021-222-2222</p>
+        </div>
+   </div>
+</div>
+ 
+    <div class=" h-7 bg-line-custom w-full"></div>
+    <div class="bg-footer  flex flex-col lg:flex-row lg:gap-8 lg:py-9 lg:px-36  justify-center px-7 rtl-grid ">
+        <div class="lg:basis-1/2">
+            <div class="flex justify-center items-center">
+                <img class="h-32 lg:h-40 " src="../../assets/images/mainlogo.svg" alt="" />
+            </div>
+            <div class="pb-8 lg:relative lg:-top-8   ">
+                <p class="font-[kalame-regular] ">
+                    لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی
+                    آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و لورم ایپسوم یا
+                    طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در
+                    صنعت چاپ، صفحه‌آرایی و طراحی گرافیک
+                </p>
+            </div>
+        </div>
+        <div class="lg:basis-1/2 lg:pt-8  lg:relative lg:top-11">
+            <div class=" ">
+                <div>
+                    <h3 class="font-[kalame-bold] font-bold pb-2 ">تماس با ما</h3>
+                </div>
+                <div>
+                    <p class="font-[kalame-regular]">
+                        لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی
+                        آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-row  justify-between items-center py-10 lg:py-5  lg:items-start">
+                <div>
+                    <h3 class="font-[kalame-bold]  font-bold  "> شماره تماس </h3>
+                </div>
+                <div>
+                    <p class="font-bold">021-222-2222</p>
+                    <p class="font-bold">021-222-2222</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-line-footer h-[65px]  flex justify-center items-center w-full ">
+        <p class="font-[kalame-medium] text-white text-base rtl-grid">تمامی حقوق محفوظ است.</p>
+    </div>
+    </div>
+    <script src="../index.js"></script>
+</body>
+
+</html>
